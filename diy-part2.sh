@@ -10,6 +10,6 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 # Import external feeds
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-jerrykuku
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-jerrykuku
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
